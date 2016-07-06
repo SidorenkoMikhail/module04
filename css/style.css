@@ -1,0 +1,205 @@
+@font-face {
+      font-family: Tahoma;
+      src: url(../fonts/Tahoma.ttf);
+}
+* {
+	margin: 0; 
+    padding: 0;}
+
+body {
+     background: url("../img/background.jpg");
+     font-family: Tahoma, Arial , sans-serif; 
+}
+
+.main{
+     width: 1000px;
+     position: relative;
+     background-color: white;
+    -moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.86);
+     box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.86);
+     margin: 0px auto;
+     border-bottom: 4px solid black;
+   
+}
+    .header{
+    width:1000px;
+    height: 179px;
+    
+}
+
+.contacts{
+    float:right;
+    position: relative;
+    padding: 20px 33px;
+    bottom: 18px;
+    font: 10pt/8pt sans-serif;
+  
+}
+.contacts p {
+    color: #5fa5bb;
+    margin-top: 8px;
+    font: 10px;
+}
+
+.travel_logo{
+    float:left;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.countries{
+    float: right;
+    clear: right;
+    margin-right: 20px;
+    
+}
+.countries li{
+    display:inline-block;
+    margin-right: 8px;
+    font: 10pt/8pt sans-serif;
+}
+.countries li a{
+    text-align:center;
+    color: #128aa7;
+    font-size: 10px;
+    
+}
+.beach_photo{
+    position: relative;
+    bottom: 3px;
+    width: 1000px;
+    height: 237px;
+    border: 1px solid #128aa7;
+    
+}
+.menu {
+    width: 1000px;
+    z-index: 1;
+    position: absolute;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+ul.menu {
+    display: block;
+    list-style: none;
+    position: relative;
+    top: 3px;
+    border-bottom: 1px solid black;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 142px;
+    margin-top: -5px;
+    
+}
+b{
+    font-size: 9px;
+    
+}
+ul.menu > li > a {
+    width: 130px;
+    margin: 0;
+    display: block;
+    color: white;
+    padding: 10px;
+    background-color: #333333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul.submenu {
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    width: 135px;
+    background-color: #303030;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 6px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+    text-align: left;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.text{
+    position: relative;
+    width: 1000px;
+    background-color: white;
+    overflow: hidden;
+}
+ .info{
+    width: 200px; 
+    float: left;
+    background-color: #edeef0;
+    border: 1px solid #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.centr{
+    width: 200px;
+    height: 100%;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.news{
+    width: 200px;
+    float: right;
+    background-color: #edeef0;
+    border: 1px solid #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    
+}
+
+.text h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+
+}
+.text p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -3px;
+
+}
+
+.footer{
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+}
+.footer p{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+    line-height: 30px;
+	
+}
